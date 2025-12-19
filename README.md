@@ -1,3 +1,6 @@
+What I added:
+:GetSlots: Returns every slot and what tool in it
+
 <h1 align="center">
   <img src="docs/assets/favicon.svg" width="64">
   <br>
