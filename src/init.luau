@@ -2142,6 +2142,18 @@ function BackpackScript:GetStateChangedEvent(): BindableEvent
 	return BackpackScript.StateChanged
 end
 
+-- Returns slots and their tool
+function BackpackScript:GetSlots(): { [number]: Tool }
+	local slotsToReturn = {}
+	for i = 1, #Slots do
+		if Slots[i].Tool == nil then
+			slotsToReturn[i] = false
+		end
+		slotsToReturn[i] = Slots[i].Tool
+	end
+	return slotsToReturn
+end
+
 -- Update every heartbeat the icon state
 RunService.Heartbeat:Connect(function(): ()
 	OnIconChanged(BackpackEnabled)
