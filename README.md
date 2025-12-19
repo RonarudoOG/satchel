@@ -4,11 +4,6 @@
   Satchel
 </h1>
 
-<h3>What I added:</h3>
-<ul>
-  <li><code>:GetSlots()</code>: Returns every slot and what tool is in it</li>
-</ul>
-
 <div align="center">
 
   [![CI](https://github.com/ryanlua/satchel/actions/workflows/ci.yml/badge.svg)](https://github.com/ryanlua/satchel/actions/workflows/ci.yml)
@@ -19,6 +14,11 @@
   [![Mentioned in Awesome Roblox](https://awesome.re/mentioned-badge.svg)](https://github.com/awesome-roblox/awesome-roblox)
 
 </div>
+
+<h3>What I added:</h3>
+<ul>
+  <li><code>:GetSlots()</code>: Returns every slot and what tool is in it</li>
+</ul>
 
 > [!TIP]
 > Want just the CoreGui backpack? Check out [Purse](https://github.com/ryanlua/purse), a sub-project of Satchel.
