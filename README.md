@@ -1,11 +1,13 @@
-What I added:
-:GetSlots: Returns every slot and what tool in it
-
 <h1 align="center">
   <img src="docs/assets/favicon.svg" width="64">
   <br>
   Satchel
 </h1>
+
+<h3>What I added:</h3>
+<ul>
+  <li><code>:GetSlots()</code>: Returns every slot and what tool is in it</li>
+</ul>
 
 <div align="center">
 
