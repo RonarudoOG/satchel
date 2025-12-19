@@ -15,7 +15,7 @@
 
 </div>
 
-<h3>What I added:</h3>
+<h3>What I(Ronarudo) added:</h3>
 <ul>
   <li><code>:GetSlots()</code>: Returns every slot and what tool is in it</li>
 </ul>
